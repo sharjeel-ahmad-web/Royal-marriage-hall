@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cinzel", Georgia, serif;
+  --font-body: "Lora", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-urdu: "Noto Nastaliq Urdu", "Jameel Noori Nastaliq", serif;
+  --color-gold-50: #fbf7ee;
+  --color-gold-100: #f4ebd5;
+  --color-gold-200: #ead6ab;
+  --color-gold-300: #ddbd7b;
+  --color-gold-400: #d1a553;
+  --color-gold-500: #b48c46;
+  --color-gold-600: #9c7336;
+  --color-gold-700: #7d592c;
+  --color-gold-800: #674729;
+  --color-gold-900: #553b25;
+}
+
+body {
+  font-family: "Lora", Georgia, serif;
+  color: #1C1917;
+  background-color: #FDFBF7;
+}
+
+.font-cinzel {
+  font-family: "Cinzel", Georgia, serif;
+}
+
+.font-lora {
+  font-family: "Lora", Georgia, serif;
+}
+
+.font-urdu {
+  font-family: "Noto Nastaliq Urdu", "Jameel Noori Nastaliq", "Urdu Typesetting", serif;
+  line-height: 1.9;
+}
+
+.font-sans-ui {
+  font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+}
+
+/* Luxury Glow and Card Lift */
+.luxury-card-hover {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.35s ease;
+}
+
+.luxury-card-hover:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 35px -10px rgba(180, 140, 70, 0.15), 0 10px 20px -5px rgba(28, 25, 23, 0.08);
+  border-color: rgba(180, 140, 70, 0.6);
+}
+
+.luxury-btn-gold {
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.luxury-btn-gold:hover {
+  box-shadow: 0 0 20px rgba(180, 140, 70, 0.45);
+  transform: translateY(-1px);
+}
+

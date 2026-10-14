@@ -1,0 +1,6 @@
+{
+  "name": "Royal Palace Banquets & Marquee Lahore",
+  "description": "Premier luxury wedding marquee, banquet hall, and event venue in Lahore, Pakistan. Featuring custom catering, instant visit scheduling, and wedding package inquiries.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
